@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+form {
+  display: grid;
+  place-content: center;
+  gap: 30px;
+
+  height: 100vh;
+  width: 100vw;
+  background: #3657bc;
+}
+
+form input[type="text"] {
+  width: 500px;
+  height: 80px;
+  font-size: 2rem;
+}
+
+form button {
+  width: 500px;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+.output {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 20px;
+}
